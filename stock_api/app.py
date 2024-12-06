@@ -261,8 +261,6 @@ stock_data = [
         "price_2007": 160.15,
         "symbol": "SPOT"
     }
-]
-
 ] 
 
 @app.route('/stocks', methods=['GET'])
