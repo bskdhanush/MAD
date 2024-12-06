@@ -180,7 +180,6 @@ stock_data = [
         "price_2007": 17.54,
         "symbol": "XRX"
     }
-    [
     {
         "company": "Tesla",
         "description": "Tesla, Inc. designs, develops, manufactures, and sells electric vehicles and energy storage products.",
@@ -261,6 +260,8 @@ stock_data = [
         "price_2007": 160.15,
         "symbol": "SPOT"
     }
+
+
 ] 
 
 @app.route('/stocks', methods=['GET'])
