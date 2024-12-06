@@ -21,6 +21,87 @@ stock_data = [
         "symbol": "AMZN"
     },
     {
+        "company": "Tesla",
+        "description": "Tesla, Inc. designs, develops, manufactures, and sells electric vehicles and energy storage products.",
+        "initial_price": 69.03,
+        "price_2002": 26.71,
+        "price_2007": 68.26,
+        "symbol": "TSLA"
+    },
+    {
+        "company": "Apple",
+        "description": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, and wearables.",
+        "initial_price": 46.47,
+        "price_2002": 9.2,
+        "price_2007": 16.05,
+        "symbol": "AAPL"
+    },
+    {
+        "company": "Google",
+        "description": "Google LLC is a multinational technology company that specializes in Internet services, software, and hardware.",
+        "initial_price": 73.05,
+        "price_2002": 64.15,
+        "price_2007": 103.03,
+        "symbol": "GOOGL"
+    },
+    {
+        "company": "Meta",
+        "description": "Meta Platforms, Inc., develops social media platforms including Facebook, Instagram, and WhatsApp.",
+        "initial_price": 28.76,
+        "price_2002": 17.48,
+        "price_2007": 49.97,
+        "symbol": "META"
+    },
+    {
+        "company": "Netflix",
+        "description": "Netflix, Inc. is a streaming service that offers online streaming of movies and television shows.",
+        "initial_price": 88.05,
+        "price_2002": 30.96,
+        "price_2007": 158.59,
+        "symbol": "NFLX"
+    },
+    {
+        "company": "NVIDIA",
+        "description": "NVIDIA Corporation designs and markets graphics processing units for gaming and professional markets.",
+        "initial_price": 12.73,
+        "price_2002": 9.31,
+        "price_2007": 13.85,
+        "symbol": "NVDA"
+    },
+    {
+        "company": "Microsoft",
+        "description": "Microsoft develops, licenses, and supports a range of software products, services, and devices.",
+        "initial_price": 17.12,
+        "price_2002": 10.73,
+        "price_2007": 22.41,
+        "symbol": "MSFT"
+    },
+    {
+        "company": "AMD",
+        "description": "Advanced Micro Devices, Inc. is a multinational semiconductor company that develops processors.",
+        "initial_price": 12.24,
+        "price_2002": 10.34,
+        "price_2007": 14.36,
+        "symbol": "AMD"
+    },
+    {
+        "company": "Intel",
+        "description": "Intel Corporation designs and manufactures microprocessors and other semiconductor components.",
+        "initial_price": 23.24,
+        "price_2002": 7.28,
+        "price_2007": 22.41,
+        "symbol": "INTC"
+    },
+    {
+        "company": "Spotify",
+        "description": "Spotify Technology SA is a music streaming service that offers on-demand access to millions of songs.",
+        "initial_price": 87.39,
+        "price_2002": 43.98,
+        "price_2007": 160.15,
+        "symbol": "SPOT"
+    },
+
+    {
         "company": "Campbell Soup",
         "description": "Campbell Soup is a worldwide food company, offering condensed and ready-to-serve soups; broth, stocks, and canned poultry; pasta sauces; Mexican sauces; canned pastas, gravies, and beans; juices and beverages; and tomato juices. Its customers include retail food chains, mass discounters, mass merchandisers, club stores, convenience stores, drug stores and other retail, and commercial and non-commercial establishments. Campbell Soup Company was founded in 1869 and is headquartered in Camden, New Jersey.",
         "initial_price": 37.0,
@@ -180,88 +261,7 @@ stock_data = [
         "price_2007": 17.54,
         "symbol": "XRX"
     }
-    {
-        "company": "Tesla",
-        "description": "Tesla, Inc. designs, develops, manufactures, and sells electric vehicles and energy storage products.",
-        "initial_price": 69.03,
-        "price_2002": 26.71,
-        "price_2007": 68.26,
-        "symbol": "TSLA"
-    },
-    {
-        "company": "Apple",
-        "description": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, and wearables.",
-        "initial_price": 46.47,
-        "price_2002": 9.2,
-        "price_2007": 16.05,
-        "symbol": "AAPL"
-    },
-    {
-        "company": "Google",
-        "description": "Google LLC is a multinational technology company that specializes in Internet services, software, and hardware.",
-        "initial_price": 73.05,
-        "price_2002": 64.15,
-        "price_2007": 103.03,
-        "symbol": "GOOGL"
-    },
-    {
-        "company": "Meta",
-        "description": "Meta Platforms, Inc., develops social media platforms including Facebook, Instagram, and WhatsApp.",
-        "initial_price": 28.76,
-        "price_2002": 17.48,
-        "price_2007": 49.97,
-        "symbol": "META"
-    },
-    {
-        "company": "Netflix",
-        "description": "Netflix, Inc. is a streaming service that offers online streaming of movies and television shows.",
-        "initial_price": 88.05,
-        "price_2002": 30.96,
-        "price_2007": 158.59,
-        "symbol": "NFLX"
-    },
-    {
-        "company": "NVIDIA",
-        "description": "NVIDIA Corporation designs and markets graphics processing units for gaming and professional markets.",
-        "initial_price": 12.73,
-        "price_2002": 9.31,
-        "price_2007": 13.85,
-        "symbol": "NVDA"
-    },
-    {
-        "company": "Microsoft",
-        "description": "Microsoft develops, licenses, and supports a range of software products, services, and devices.",
-        "initial_price": 17.12,
-        "price_2002": 10.73,
-        "price_2007": 22.41,
-        "symbol": "MSFT"
-    },
-    {
-        "company": "AMD",
-        "description": "Advanced Micro Devices, Inc. is a multinational semiconductor company that develops processors.",
-        "initial_price": 12.24,
-        "price_2002": 10.34,
-        "price_2007": 14.36,
-        "symbol": "AMD"
-    },
-    {
-        "company": "Intel",
-        "description": "Intel Corporation designs and manufactures microprocessors and other semiconductor components.",
-        "initial_price": 23.24,
-        "price_2002": 7.28,
-        "price_2007": 22.41,
-        "symbol": "INTC"
-    },
-    {
-        "company": "Spotify",
-        "description": "Spotify Technology SA is a music streaming service that offers on-demand access to millions of songs.",
-        "initial_price": 87.39,
-        "price_2002": 43.98,
-        "price_2007": 160.15,
-        "symbol": "SPOT"
-    }
-
-
+    
 ] 
 
 @app.route('/stocks', methods=['GET'])
